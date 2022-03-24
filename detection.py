@@ -22,7 +22,6 @@ def drow_the_lines(img, lines):
     return img
 
 def process(image):
-    print(image.shape)
     height = image.shape[0]
     width = image.shape[1]
     region_of_interest_vertices = [
